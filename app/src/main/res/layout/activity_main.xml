@@ -65,10 +65,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cat" />
+            app:srcCompat="@drawable/bear" />
 
         <TextView
             android:id="@+id/tv_result"
@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:text="結果"
-            android:textColor="#FFFFFF"
+            android:textColor="#D81B60"
             android:textSize="34sp" />
     </FrameLayout>
 
